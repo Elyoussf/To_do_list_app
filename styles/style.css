@@ -1,0 +1,80 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style:italic;
+}
+body{
+    background-image: url(../images/kate_back_to_school_photo_backdrop_10x6.5ft_HFD0050-B.jpg);
+}
+.container{
+    height: max-content;
+    width: 40%;
+    border-style: solid;
+    border-color: blue orange olivedrab green;
+    border-radius: 20px;
+    margin-top: 15%;
+    margin-bottom: auto;
+    padding: 2% 15%;
+    background-color: brown;
+    max-width: 100%;
+}
+.inputtext{
+    padding: 1%;
+    border-radius: 20px;
+    border-color: blue orange olivedrab green;
+    background-color: white;
+    
+    margin-left: 0%;
+    margin-right: 10%;
+}
+.add_task{
+    padding: 8px;
+    border-radius: 20px;
+    border-color: blue orange olivedrab green;
+    background-color: orange;
+}
+.title{
+    border-color: blue orange olivedrab green;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(66, 167, 66);;
+}
+[class^="task"]{
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+[class^="task"] p{
+    border-color: blue orange olivedrab green;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+    word-wrap: break-word;
+    margin-bottom: 5%;
+    width: 90%;
+}
+[class^="task"] button{
+    height: 45px;
+    transform: translateY(20px);
+    transform: translateZ(-10%);
+    border-radius: 20px;
+    background-color: orange;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 20%;
+}
+
+span{
+    justify-content: center;
+    margin-right: 20%;
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
