@@ -12,7 +12,6 @@ const rotationarrayanticlockwise = (arr) => {
   arr[n - 1] = first;
   return arr;
 };
-
 let array = ["blue", "orange", "olivedrab", "green"];
 inputtext.addEventListener("input", () => {
   array = rotationarrayanticlockwise(array);
